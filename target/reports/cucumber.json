@@ -1,0 +1,205 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-04T16:52:08.535Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1428982900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.beforeTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Background Color Change",
+        "description": "",
+        "id": "changing-color-background-on-techfios-testing-page;background-color-change;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 141364200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 251919800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"skyblue\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"skyblue\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.StepDefinition.colorButtonExist(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37185000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on \"skyblue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"skyblue\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.StepDefinition.userClicksOnButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 934700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The background color will change to \"skyblue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"skyblue\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.StepDefinition.BGColorWillChange(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackgroundTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-04T16:52:10.445Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1069192300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.beforeTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Background Color Change",
+        "description": "",
+        "id": "changing-color-background-on-techfios-testing-page;background-color-change;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 139509000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 220388100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"white\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"white\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.StepDefinition.colorButtonExist(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24657600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"white\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.StepDefinition.userClicksOnButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The background color will change to \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"white\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.StepDefinition.BGColorWillChange(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackgroundTest"
+          }
+        ]
+      }
+    ],
+    "name": "Changing color background on TechFios Testing Page",
+    "description": "",
+    "id": "changing-color-background-on-techfios-testing-page",
+    "keyword": "Feature",
+    "uri": "classpath:features/ChangeFeaturesOnTestingPage.feature",
+    "tags": [
+      {
+        "name": "@BackgroundTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

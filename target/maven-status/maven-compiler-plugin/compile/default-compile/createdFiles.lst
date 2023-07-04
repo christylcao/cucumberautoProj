@@ -1,0 +1,4 @@
+pages\TestBasePage.class
+pages\AddNewAccountPage.class
+pages\DatabasePage.class
+pages\LoginPage.class
